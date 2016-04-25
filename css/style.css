@@ -1,0 +1,79 @@
+.contaner {
+	width:940px;
+	margin: 0 auto;
+}
+
+#header {
+	position: absolute;
+	left: 0;
+	right:0;
+	width:100%;
+	padding: 20px 0;
+	background-color:#4F444C;
+	opacity:0.8;
+	 position: fixed;
+
+}
+
+ol, ul {
+	list-style: none;
+}
+
+.logo {
+	float: left;
+}
+
+.nav {
+	float: right;
+
+}
+
+.clearfix:before,
+.clearfix:after,
+{
+	content:" ";
+	display: table;
+}
+.clearfix:after{
+	clear:both;
+}
+
+.nav a {
+	outline:none;
+	text-decoration: none;
+	font-size:16px;
+	color:#fff;
+	text-transform:uppercase;
+	text-shadow: 1px 1px 2px black;
+}
+
+.nav li {
+	float:left;
+	margin-right:40px;
+
+}
+
+.nav a:hover {
+	color:#868181;
+}
+
+.nav li:last-child {
+	margin-right:0px;
+}
+
+
+#home {
+	height: 700px;
+	background:#222 url(../img/fon.jpg) no-repeat;
+	padding-top:270px;
+	text-align:center;
+	color:#DCDCDC;
+	
+}
+
+#home h1 {
+    font:58px Arial,sans-serif;
+    text-transform:uppercase;
+    text-shadow: 3px 3px 3px #2D3444;
+
+}
