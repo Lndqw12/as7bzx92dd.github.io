@@ -63,11 +63,11 @@ ol, ul {
 
 
 #home {
-	height: 700px;
+	height: 550px;
 	background:#222 url(../img/fon.jpg) no-repeat;
 	padding-top:270px;
 	text-align:center;
-	color:#DCDCDC;
+	color:#FE8282;
 	
 }
 
@@ -75,5 +75,82 @@ ol, ul {
     font:58px Arial,sans-serif;
     text-transform:uppercase;
     text-shadow: 3px 3px 3px #2D3444;
+
+}
+
+.box {
+	padding: 120px 0;
+}
+
+#servis {
+	height: 550px;
+	text-align:center;
+	background:#222 url(../img/fon2.jpg) no-repeat;
+}
+h2.title {
+	font:bold 40px/40px Arial, sans-serif;
+	color:#FE8282;
+	 text-shadow: 3px 3px 3px #2D3444;
+	 text-transform:uppercase;
+}
+
+h5.title {
+	font: bold 22px/12px Arial, sans-serif;
+	color:#FE8282;
+	 text-shadow: 3px 3px 3px #2D3444;
+	 text-transform:uppercase;
+}
+
+.desc {
+	font-size:16px;
+	color:#fff;
+	text-shadow: 3px 3px 3px #2D3444;
+	text-transform:uppercase;
+}
+
+.serises-item p {
+	font-size:16px;
+	color:#fff;
+	text-shadow: 1px 1px 1px #2D3444;
+
+}
+
+.serises-item {
+	float:left;
+	width:30%;
+	padding-top: 150px;
+	padding-left: 33px;
+}
+
+.iconjs {
+	background: url(../img/iconjs.svg) no-repeat center top;
+}
+
+.iconcpp {
+	background: url(../img/iconcpp.svg) no-repeat center top;
+}
+
+.iconphp {
+	background: url(../img/iconphp.svg) no-repeat center top;
+}
+
+.iconjs:hover, .iconcpp:hover, .iconphp:hover {
+	background: url(../img/pris.svg) no-repeat center top;
+	 transition: all .5s ease;
+}
+
+
+.srvises-wrap {
+	padding-top:80px;
+}
+.title {
+	margin-bottom: 10px;
+}
+
+.serises-item:hover {
+	border-style: solid;
+	border-color:#fff;
+	border-width:5px;
+	border-radius: 15px
 
 }
