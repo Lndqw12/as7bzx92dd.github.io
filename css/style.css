@@ -27,7 +27,7 @@ ol, ul {
 	float: right;
 
 }
-
+a, a:hover {text-decoration:none;}
 .clearfix:before,
 .clearfix:after,
 {
@@ -175,6 +175,52 @@ h5.title {
 	padding:0px 20px 20px 20px;
 }
 .l-item-footer span {
+	color:#fff;
+	text-shadow: 1px 1px 1px #2D3444;
+}
+
+#calenar {
+	height: 750px;
+	text-align:center;
+	background:#222 url(../img/fon4.jpg) no-repeat;
+}
+
+.calendar-txt {
+	width:35%;
+	
+}
+
+.calendar-img {
+	width:30%;
+
+}
+
+.left {float:left;}
+.right {float:right;}
+.text-left {text-align:left;}
+.text-right {text-align:right;}
+
+.calendar-txt {
+	font-size:16px;
+	line-height:24px;
+	color:#fff;
+	text-shadow: 1px 1px 1px #2D3444;
+}
+.calendar-img {
+	-webkit-border-radius: 100% 100% 100% 100%;
+	   -moz-border-radius: 100% 100% 100% 100%;
+	     -o-border-radius: 100% 100% 100% 100%;
+	        border-radius: 100% 100% 100% 100%;
+	background-color:#6D656D;
+	width: 200px;
+	height: 200px;
+	text-align:center;
+	margin-top:30px;
+	margin-left: 95px;
+	opacity:.7;
+}
+.calendar-img img {
+	margin-top: 35px;
 	color:#fff;
 	text-shadow: 1px 1px 1px #2D3444;
 }
