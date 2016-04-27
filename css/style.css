@@ -174,3 +174,7 @@ h5.title {
 .l-item-footer {
 	padding:0px 20px 20px 20px;
 }
+.l-item-footer span {
+	color:#fff;
+	text-shadow: 1px 1px 1px #2D3444;
+}
