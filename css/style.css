@@ -154,3 +154,23 @@ h5.title {
 	border-radius: 15px
 
 }
+
+#liter {
+	height: 750px;
+	text-align:center;
+	background:#222 url(../img/fon3.jpg) no-repeat;
+
+}
+.liter-item {
+	width:31%;
+	margin-right:3.5%;
+	float:left;
+}
+
+.liter-item:nth-child(3n) {
+     margin-right:0;
+} 
+
+.l-item-footer {
+	padding:0px 20px 20px 20px;
+}
