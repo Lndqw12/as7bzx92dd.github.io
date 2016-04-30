@@ -456,3 +456,36 @@ h5.title {
             -o-transform: scale(2);
 }
 
+#contact {
+	height: 750px;
+	text-align:center;
+	background:#222 url(../img/fon6.jpg) no-repeat;
+}
+
+.formlite {
+    width:80%;
+    height:400px;
+    margin:0 auto;
+    background-color:#6D656D;
+    padding:40px;
+}
+
+.stform input {
+	width: 350px;
+    height: 35px;
+    margin:0 auto;
+    display: block;
+   
+   
+
+}
+
+.btn {
+	width: 200px;
+    height: 35px;
+    margin:0 auto;
+   text-transform:uppercase;
+   margin-top: 35px;
+
+
+}
