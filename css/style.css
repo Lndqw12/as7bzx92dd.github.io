@@ -257,7 +257,7 @@ h5.title {
 	margin:0 auto;
 }
 
-.block, .block2 {
+.block{
 	height:50px;
 	 background: #CD5C5C;
      color: #FFF;
@@ -266,7 +266,28 @@ h5.title {
      padding-bottom: 20px;
 }
 
-.block:hover,
+.block:hover
+
+  {
+	 height:50px;
+	 background: #228B22;
+     color: #FFF;
+     cursor:pointer;
+     padding-top: 1px;
+     padding-bottom: 20px;
+}
+
+
+.block2 {
+	height:50px;
+	 background: #00FFFF;
+     color: #FFF;
+     cursor: pointer;
+     padding-top: 1px;
+     padding-bottom: 20px;
+}
+
+
 .block2:hover
   {
 	 height:50px;
@@ -342,7 +363,7 @@ h5.title {
 }
 
 .block5 {
-	background:#7A67EE;
+	background:#00EE00;
 	height:50px;
 	width:75%;
      color: #000;
@@ -353,7 +374,7 @@ h5.title {
 }
 
 .block5:hover {
-	background: #7A67EE;
+	background: #00EE00;
 	height:50px;
 	width:100%;
      color: #000;
@@ -368,3 +389,70 @@ h5.title {
 	    transition-duration: 3s; 
 	    
 }
+
+.block6 {
+	background:#00EE00;
+	height:50px;
+	width:75%;
+     color: #000;
+     cursor: pointer;
+     padding-top: 1px;
+     padding-bottom: 20px;
+     
+}
+
+.block6:hover {
+	background: #FFFF00;
+	height:50px;
+	width:100%;
+     color: #000;
+     cursor: pointer;
+     padding-top: 1px;
+     padding-bottom: 20px;
+   
+}
+
+.t6 {
+	    transition-timing-function: steps(4, start);
+	    transition-duration: 3s; 
+	    
+}
+
+.block7 {
+	background:#8B658B;
+	height:50px;
+	width:75%;
+     color: #000;
+     cursor: pointer;
+     padding-top: 1px;
+     padding-bottom: 20px;
+      transition: 3s linear;
+     
+}
+
+.block7:hover {
+	  -webkit-transform: rotate(360deg);
+         -moz-transform: rotate(360deg);
+           -o-transform: rotate(360deg);
+   
+}
+
+.block8 {
+	background:#FF7F24;
+	height:50px;
+	width:75%;
+     color: #000;
+     cursor: pointer;
+     padding-top: 1px;
+     padding-bottom: 20px;
+      transition: 3s linear;
+       margin:0 auto;
+     
+}
+
+.block8:hover {
+	   -webkit-transform: scale(2);
+	      -moz-transform: scale(2);
+            -o-transform: scale(2);
+}
+
