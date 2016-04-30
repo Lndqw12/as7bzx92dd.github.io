@@ -242,3 +242,129 @@ h5.title {
 .top-txt{
 	margin-top: 267px;
 }
+
+#example {
+	height: 750px;
+	text-align:center;
+	background:#222 url(../img/fon5.jpg) no-repeat;
+}
+
+.primer {
+	width: 800px;
+    height: 700px;
+	border-radius:5px;
+	border: #fff 2px solid;
+	margin:0 auto;
+}
+
+.block, .block2 {
+	height:50px;
+	 background: #CD5C5C;
+     color: #FFF;
+     cursor: pointer;
+     padding-top: 1px;
+     padding-bottom: 20px;
+}
+
+.block:hover,
+.block2:hover
+  {
+	 height:50px;
+	 background: #228B22;
+     color: #FFF;
+     cursor:pointer;
+     padding-top: 1px;
+     padding-bottom: 20px;
+}
+
+.t-st1 {
+     transition: 5s;
+
+}
+
+.t-st2:hover {
+	 transition: 5s;
+}
+
+.block3 {
+	background:#fff;
+	height:50px;
+	width:75%;
+     color: #000FFF;
+     cursor: pointer;
+     padding-top: 1px;
+     padding-bottom: 20px;
+      margin:0 auto;
+}
+
+.block3:hover {
+	background:#fff;
+	height:50px;
+		width:100%;
+     color: #000FFF;
+     cursor: pointer;
+     padding-top: 1px;
+     padding-bottom: 20px;
+     margin:0 auto;
+}
+
+.t3 {
+	transition-property:all;
+	    transition-duration: 5s;
+}
+
+.block4 {
+	background:#FF00FF;
+	height:50px;
+	width:75%;
+     color: #000;
+     cursor: pointer;
+     padding-top: 1px;
+     padding-bottom: 20px;
+      margin:0 auto;
+}
+
+.block4:hover {
+	background: #000FFF;
+	height:50px;
+	width:100%;
+     color: #000;
+     cursor: pointer;
+     padding-top: 1px;
+     padding-bottom: 20px;
+      margin:0 auto;
+}
+
+.t4 {
+	    transition-delay: 1s;
+	    transition-duration: 3s;
+	    
+}
+
+.block5 {
+	background:#7A67EE;
+	height:50px;
+	width:75%;
+     color: #000;
+     cursor: pointer;
+     padding-top: 1px;
+     padding-bottom: 20px;
+     
+}
+
+.block5:hover {
+	background: #7A67EE;
+	height:50px;
+	width:100%;
+     color: #000;
+     cursor: pointer;
+     padding-top: 1px;
+     padding-bottom: 20px;
+   
+}
+
+.t5 {
+	    transition-timing-function: cubic-bezier(.1, .9, .9, 1.5);
+	    transition-duration: 3s; 
+	    
+}
