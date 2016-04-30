@@ -63,7 +63,7 @@ a, a:hover {text-decoration:none;}
 
 
 #home {
-	height: 550px;
+	height: 750px;
 	background:#222 url(../img/fon.jpg) no-repeat;
 	padding-top:270px;
 	text-align:center;
@@ -83,7 +83,7 @@ a, a:hover {text-decoration:none;}
 }
 
 #servis {
-	height: 550px;
+	height: 750px;
 	text-align:center;
 	background:#222 url(../img/fon2.jpg) no-repeat;
 }
@@ -117,7 +117,7 @@ h5.title {
 
 .serises-item {
 	float:left;
-	width:30%;
+    width: 29%;
 	padding-top: 150px;
 	padding-left: 33px;
 }
@@ -147,13 +147,13 @@ h5.title {
 	margin-bottom: 10px;
 }
 
-.serises-item:hover {
+/*.serises-item:hover {
 	border-style: solid;
 	border-color:#fff;
 	border-width:5px;
 	border-radius: 15px
 
-}
+} */
 
 #liter {
 	height: 750px;
@@ -201,6 +201,7 @@ h5.title {
 .text-right {text-align:right;}
 
 .calendar-txt {
+	width:35%;
 	font-size:16px;
 	line-height:24px;
 	color:#fff;
@@ -214,13 +215,17 @@ h5.title {
 	background-color:#6D656D;
 	width: 200px;
 	height: 200px;
-	text-align:center;
-	margin-top:30px;
-	margin-left: 95px;
+	margin-top: 60px;
+	margin-left: 30px;
 	opacity:.7;
 }
 .calendar-img img {
 	margin-top: 35px;
 	color:#fff;
 	text-shadow: 1px 1px 1px #2D3444;
+}
+
+.liter-item:last-child h5 {
+	font-size: 19px;
+    margin-top: 36px;
 }
