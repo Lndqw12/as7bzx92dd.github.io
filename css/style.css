@@ -457,7 +457,7 @@ h5.title {
 }
 
 #contact {
-	height: 750px;
+	height: 600px;
 	text-align:center;
 	background:#222 url(../img/fon6.jpg) no-repeat;
 }
@@ -522,6 +522,25 @@ h5.title {
 }
 
 .logofoot {
-	padding-top:40px;
+	padding-top: 45px;
 	
+}
+
+#calenext {
+	height: 750px;
+	text-align:center;
+	background:#222 url(../img/fon5.jpg) no-repeat;
+}
+
+.colum1, .colum2 {
+	width: 50%;
+	float: left
+}
+
+.colum1 h3 {
+	margin-top: 45px;
+	color:#fff;
+	text-shadow: 1px 1px 1px #2D3444;
+	text-transform:uppercase;
+	font-size:16px;
 }
